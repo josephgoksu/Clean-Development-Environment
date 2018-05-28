@@ -15,3 +15,4 @@ docblockr \
 language-babel \
 linter-eslint \
 platformio-ide-terminal \
+todo-show \
