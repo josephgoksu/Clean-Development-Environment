@@ -14,3 +14,4 @@ autocomplete-modules \
 docblockr \
 language-babel \
 linter-eslint \
+terminal-plus \
