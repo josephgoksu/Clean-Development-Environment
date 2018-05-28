@@ -14,4 +14,4 @@ autocomplete-modules \
 docblockr \
 language-babel \
 linter-eslint \
-terminal-plus \
+platformio-ide-terminal \
