@@ -5,14 +5,31 @@
 
 apm install \
 atom-beautify \
-prettier-atom \
-file-icons \
-highlight-selected \
+atom-ide-ui \
 atom-ternjs \
 atom-wrap-in-tag \
 autocomplete-modules \
+busy-signal \
 docblockr \
+file-icons \
+highlight-selected \
+ide-typescript \
+intentions \
+js-hyperclick \
 language-babel \
-linter-eslint \
+linter \
+linter-flow \
+linter-htmlhint \
+linter-jshint \
+linter-jsonlint \
+linter-package-json-validator \
+linter-pylint \
+linter-sass-lint \
+linter-ui-default \
+monokai \
+pigments \
 platformio-ide-terminal \
+prettier-atom \
+react-redux-snippets \
+react-snippets \
 todo-show \
