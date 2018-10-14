@@ -5,7 +5,7 @@
 ######################
 
 # First config you have to do is to add your name and email to git
-git config --global user.name "y7usuf"
+git config --global user.name "Yusuf E. Goksu"
 git config --global user.email me@yusufgoksu.com
 
 git config --global commit.gpgsign true
