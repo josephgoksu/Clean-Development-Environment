@@ -1,19 +1,25 @@
 code --install-extension \
 alefragnani.project-manager \
+christian-kohler.npm-intellisense \
+codezombiech.gitignore \
+cssho.vscode-svgviewer \
 dbaeumer.vscode-eslint \
 donjayamanne.githistory \
+dsznajder.es7-react-js-snippets \
 eamodio.gitlens \
 eg2.vscode-npm-script \
+ericadamski.carbon-now-sh \
 esbenp.prettier-vscode \
 file-icons.file-icons \
 formulahendry.auto-close-tag \
 formulahendry.auto-rename-tag \
 formulahendry.docker-explorer \
-hoovercj.vscode-power-mode \
 IBM.output-colorizer \
+jock.svg \
 joelday.docthis \
 joshpeng.sublime-babel-vscode \
 joshpeng.theme-onedark-sublime \
+lamartire.git-indicators \
 mechatroner.rainbow-csv \
 mikestead.dotenv \
 ms-python.python \
@@ -22,7 +28,8 @@ ms-vsliveshare.vsliveshare \
 naumovs.color-highlight \
 OfHumanBondage.react-proptypes-intellisense \
 PeterJausovec.vscode-docker \
-SonarSource.sonarlint-vscode \
+rubbersheep.gi \
 vsmobile.vscode-react-native \
 wayou.vscode-todo-highlight \
+wix.vscode-import-cost \
 xabikos.ReactSnippets
