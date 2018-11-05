@@ -1,35 +1,35 @@
-code --install-extension \
-alefragnani.project-manager \
-christian-kohler.npm-intellisense \
-codezombiech.gitignore \
-cssho.vscode-svgviewer \
-dbaeumer.vscode-eslint \
-donjayamanne.githistory \
-dsznajder.es7-react-js-snippets \
-eamodio.gitlens \
-eg2.vscode-npm-script \
-ericadamski.carbon-now-sh \
-esbenp.prettier-vscode \
-file-icons.file-icons \
-formulahendry.auto-close-tag \
-formulahendry.auto-rename-tag \
-formulahendry.docker-explorer \
-IBM.output-colorizer \
-jock.svg \
-joelday.docthis \
-joshpeng.sublime-babel-vscode \
-joshpeng.theme-onedark-sublime \
-lamartire.git-indicators \
-mechatroner.rainbow-csv \
-mikestead.dotenv \
-ms-python.python \
-ms-vscode.github-issues-prs \
-ms-vsliveshare.vsliveshare \
-naumovs.color-highlight \
-OfHumanBondage.react-proptypes-intellisense \
-PeterJausovec.vscode-docker \
-rubbersheep.gi \
-vsmobile.vscode-react-native \
-wayou.vscode-todo-highlight \
-wix.vscode-import-cost \
-xabikos.ReactSnippets
+#!/bin/bash
+code --install-extension alefragnani.project-manager \
+code --install-extension christian-kohler.npm-intellisense \
+code --install-extension codezombiech.gitignore \
+code --install-extension cssho.vscode-svgviewer \
+code --install-extension dbaeumer.vscode-eslint \
+code --install-extension donjayamanne.githistory \
+code --install-extension dsznajder.es7-react-js-snippets \
+code --install-extension eamodio.gitlens \
+code --install-extension eg2.vscode-npm-script \
+code --install-extension ericadamski.carbon-now-sh \
+code --install-extension esbenp.prettier-vscode \
+code --install-extension file-icons.file-icons \
+code --install-extension formulahendry.auto-close-tag \
+code --install-extension formulahendry.auto-rename-tag \
+code --install-extension formulahendry.docker-explorer \
+code --install-extension IBM.output-colorizer \
+code --install-extension jock.svg \
+code --install-extension joelday.docthis \
+code --install-extension joshpeng.sublime-babel-vscode \
+code --install-extension joshpeng.theme-onedark-sublime \
+code --install-extension lamartire.git-indicators \
+code --install-extension mechatroner.rainbow-csv \
+code --install-extension mikestead.dotenv \
+code --install-extension ms-python.python \
+code --install-extension ms-vscode.github-issues-prs \
+code --install-extension ms-vsliveshare.vsliveshare \
+code --install-extension naumovs.color-highlight \
+code --install-extension OfHumanBondage.react-proptypes-intellisense \
+code --install-extension rubbersheep.gi \
+code --install-extension vsmobile.vscode-react-native \
+code --install-extension wayou.vscode-todo-highlight \
+code --install-extension wix.vscode-import-cost \
+code --install-extension xabikos.ReactSnippets \
+code --install-extension ahmadawais.shades-of-purple
