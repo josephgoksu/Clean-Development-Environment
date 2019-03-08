@@ -1,18 +1,20 @@
 {
+  "workbench.sideBar.location": "right",
+  //   Editor
   "editor.renderIndentGuides": true,
   "editor.renderWhitespace": "boundary",
-  "editor.cursorBlinking": "smooth",
-  "files.autoSave": "off",
-  "git.confirmSync": false,
-  "window.zoomLevel": 0,
+  "editor.cursorBlinking": "solid",
   "editor.renderLineHighlight": "all",
-  "editor.fontFamily": "Fira Code, Menlo, Monaco, ‘Courier New’, monospace",
+  "editor.fontFamily": "Fira Code, Operator Mono, Menlo, Monaco, ‘Courier New’, monospace",
   "editor.fontLigatures": true,
-  "editor.fontSize": 12.5,
-  "terminal.integrated.fontFamily": "Operator Mono",
-  "editor.minimap.enabled": true,
+  "editor.fontSize": 11.8,
+  "editor.codeLens": true,
+  "editor.detectIndentation": false,
+  "editor.minimap.side": "left",
+  "editor.minimap.enabled": false,
   "editor.minimap.renderCharacters": false,
-  "eslint.autoFixOnSave": true,
+  "editor.formatOnSave": true,
+  "breadcrumbs.enabled": true,
   "search.exclude": {
     "**/node_modules": true,
     "**/bower_components": true,
@@ -24,6 +26,7 @@
   },
   "files.exclude": {
     "**/node_modules": true,
+    "**/.vscode": true,
     "**/.git": true,
     "**/.svn": true,
     "**/.hg": true,
@@ -31,13 +34,41 @@
     "**/.DS_Store": true,
     "**/.idea": true
   },
-  "git.enableSmartCommit": true,
-  "emmet.showAbbreviationSuggestions": false,
-  "extensions.ignoreRecommendations": false,
-  "editor.detectIndentation": false,
   "files.associations": {
     "*.js": "javascript"
   },
+  "extensions.ignoreRecommendations": false,
+  //    Outline
+  "outline.icons": true,
+  "outline.problems.colors": true,
+  "files.autoSave": "off",
+  "window.zoomLevel": 0,
+  "terminal.integrated.fontFamily": "Operator Mono",
+  "javascript.format.enable": false,
+  "javascript.validate.enable": false,
+  "javascript.suggest.enabled": true,
+  "javascript.referencesCodeLens.enabled": true,
+  //   Eslint
+  "eslint.enable": true,
+  "eslint.autoFixOnSave": false,
+  "eslint.packageManager": "yarn",
+  //   "eslint.run": "onSave",
+  //   Prettier
+  "prettier.eslintIntegration": true,
+  "emmet.showAbbreviationSuggestions": false,
+  //   File Watcher
+  "files.watcherExclude": {
+    "**/.git/objects/**": false,
+    "**/.git/subtree-cache/**": false,
+    "**/node_modules/**": true
+  },
+  //   GIT - Version Control
+  "git.autofetch": true,
+  "git.autorefresh": true,
+  "git.confirmSync": false,
+  "git.enableSmartCommit": true,
+  "git.enableCommitSigning": true,
+  "gitignore.cacheExpirationInterval": 3600,
   "gitlens.advanced.messages": {
     "suppressCommitHasNoPreviousCommitWarning": false,
     "suppressCommitNotFoundWarning": false,
@@ -50,54 +81,34 @@
     "suppressUpdateNotice": false,
     "suppressWelcomeNotice": true
   },
-  "git.autofetch": true,
   "gitlens.codeLens.scopes": ["document", "containers"],
   "gitlens.recentChanges.highlight.locations": ["gutter", "line", "overview"],
   "gitlens.keymap": "alternate",
-  "gitlens.gitExplorer.view": "repository",
-  "gitlens.hovers.currentLine.over": "line",
-  "eslint.enable": true,
-  "editor.formatOnSave": true,
-  "javascript.format.enable": true,
-  "prettier.eslintIntegration": true,
-  "javascript.validate.enable": false,
-  "gitlens.historyExplorer.enabled": true,
-  "workbench.iconTheme": "file-icons",
-  "workbench.colorCustomizations": {},
-  "todohighlight.keywords": ["REFACTOR", "FIXME", "BUG"],
   "gitlens.mode.active": "review",
+  "gitlens.blame.heatmap.enabled": true,
+  "gitlens.hovers.currentLine.over": "line",
+  "gitlens.views.fileHistory.enabled": true,
+  "gitlens.views.lineHistory.enabled": true,
+  //   Workbench
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.colorCustomizations": {},
+  "todohighlight.keywords": ["REFACTOR", "FIXME", "BUG", "CHANGES"],
   "terminal.integrated.rendererType": "dom",
   "workbench.statusBar.feedback.visible": false,
   "workbench.fontAliasing": "auto",
-  "git.enableCommitSigning": true,
-  "workbench.colorTheme": "Shades of Purple",
+  "workbench.colorTheme": "One Dark+ (Sublime)",
   "workbench.editor.showTabs": true,
   "workbench.startupEditor": "newUntitledFile",
-  "javascript.referencesCodeLens.enabled": true,
-  "gitignore.cacheExpirationInterval": 3600,
-  // Upper size limit, in KB, that will count a package as a small package
-  "importCost.smallPackageSize": 50,
-  // Upper size limit, in KB, that will count a package as a medium package
-  "importCost.mediumPackageSize": 100,
-  // Decoration color for small packages
-  "importCost.smallPackageColor": "#7cc36e",
-  // Decoration color for medium packages
-  "importCost.mediumPackageColor": "#7cc36e",
-  // Decoration color for large packages
-  "importCost.largePackageColor": "#d44e40",
-  // File extensions to be parsed by the Typescript parser
-  "importCost.typescriptExtensions": ["\\.tsx?$"],
-  // File extensions to be parsed by the Javascript parser
-  "importCost.javascriptExtensions": ["\\.jsx?$"],
-  // Which bundle size to display
-  "importCost.bundleSizeDecoration": "both",
-  // Display the 'calculating' decoration
-  "importCost.showCalculatingDecoration": true,
-  // Print debug messages in output channel
-  "importCost.debug": false,
+  //   PLUGIN Jest
+  "jest.autoEnable": false,
+  "jest.showCoverageOnLoad": true,
+  "jest.enableCodeLens": true,
+  //   PLUGIN npm-intellisense
   "npm-intellisense.importES6": true,
   "npm-intellisense.importQuotes": "'",
   "npm-intellisense.importLinebreak": ";\r\n",
   "npm-intellisense.importDeclarationType": "const",
-  "breadcrumbs.enabled": true
+  //   PLUGIN Codemetrics
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "appcenter.telemetryEnabled": false
 }
