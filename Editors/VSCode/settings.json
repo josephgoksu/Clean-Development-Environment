@@ -14,13 +14,9 @@
   "editor.minimap.enabled": false,
   "editor.minimap.renderCharacters": false,
   //   "editor.formatOnSave": true,
+  //   "editor.formatOnSaveTimeout": 5000,
   "editor.cursorSmoothCaretAnimation": false,
-  //   "editor.largeFileOptimizations": true,
-  //   "editor.quickSuggestions": {
-  //     "other": true,
-  //     "comments": false,
-  //     "strings": false
-  //   },
+  "editor.largeFileOptimizations": true,
   "editor.links": true,
   "editor.smoothScrolling": true,
   "breadcrumbs.enabled": true,
@@ -55,7 +51,6 @@
   "terminal.integrated.rendererType": "dom",
   "workbench.statusBar.feedback.visible": false,
   "workbench.fontAliasing": "auto",
-  "workbench.colorTheme": "One Dark+ (Sublime)",
   "workbench.editor.showTabs": true,
   "workbench.startupEditor": "newUntitledFile",
   //    Outline
@@ -72,8 +67,8 @@
   "javascript.suggest.completeJSDocs": true,
   "javascript.suggestionActions.enabled": true,
   "javascript.suggest.completeFunctionCalls": true,
-  //   "javascript.format.enable": true,
   "javascript.referencesCodeLens.enabled": true,
+  //   "javascript.format.enable": true,
   //   "javascript.validate.enable": true,
   //   Eslint
   "eslint.enable": true,
@@ -126,5 +121,7 @@
   "npm-intellisense.importDeclarationType": "const",
   //   PLUGIN Codemetrics
   "javascript.updateImportsOnFileMove.enabled": "never",
-  "appcenter.telemetryEnabled": false
+  "workbench.colorTheme": "One Dark (Sublime)",
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue"
 }
